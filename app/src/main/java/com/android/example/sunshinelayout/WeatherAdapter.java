@@ -1,5 +1,7 @@
 package com.android.example.sunshinelayout;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -51,7 +53,10 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherV
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
+            Context context = v.getContext();
             Toast.makeText(v.getContext(), "Position = " + position, Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(context, WeatherDetail.class);
+            context.startActivity(intent);
         }
     }
 
