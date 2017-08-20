@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorYellow">#FFC107</color>
     <color name="colorGrey">#EEEEEE</color>
+
+    <color name="sunshineBackground">#0D47A1</color>
 </resources>

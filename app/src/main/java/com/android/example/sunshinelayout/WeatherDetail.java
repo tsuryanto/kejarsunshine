@@ -10,15 +10,11 @@ import android.widget.TextView;
  */
 
 public class WeatherDetail extends AppCompatActivity {
-    private TextView mTest;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather_detail);
-
-        mTest = (TextView) findViewById(R.id.tv_detail_test);
-        mTest.setText("Oke");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

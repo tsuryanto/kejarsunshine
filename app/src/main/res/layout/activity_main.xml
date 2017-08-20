@@ -13,7 +13,7 @@
         android:layout_height="180dp"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:background="#0D47A1"
+        android:background="@color/sunshineBackground"
         android:paddingTop="@dimen/vertical_padding"
         android:paddingBottom="@dimen/vertical_padding">
 
@@ -109,7 +109,8 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rv_weather_list">
+        android:id="@+id/rv_weather_list"
+        android:layout_marginBottom="5dp">
 
 
     </android.support.v7.widget.RecyclerView>
